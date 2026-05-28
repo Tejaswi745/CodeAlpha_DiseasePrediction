@@ -1,31 +1,63 @@
-# Disease Prediction using Machine Learning
+# 🧠 Disease Prediction System using Machine Learning
 
-## 📌 Project Overview
-This project predicts diseases using machine learning algorithms on multiple datasets:
-- Diabetes Dataset
-- Heart Disease Dataset
-- Breast Cancer Dataset
+This project is a Machine Learning-based system that predicts the likelihood of three major diseases:
 
-## ⚙️ Algorithms Used
-- Logistic Regression
-- Random Forest
-- Support Vector Machine (SVM)
+* ❤️ Heart Disease
+* 🩸 Diabetes
+* 🎗️ Breast Cancer
 
 ## 🚀 Features
-- Data preprocessing (scaling & encoding)
-- Model training and evaluation
-- Accuracy comparison
-- Best model selection
 
-## 📊 Results
-The models were evaluated based on accuracy, and the best-performing model was selected for each dataset.
+* Uses multiple ML models:
+
+  * Logistic Regression
+  * Random Forest
+  * Support Vector Machine (SVM)
+* Compares accuracy of different models
+* Automatically selects the best model
+* Scales data using StandardScaler for better performance
+
+## 📊 Datasets Used
+
+* Heart Disease Dataset (CSV)
+* Diabetes Dataset (CSV)
+* Breast Cancer Dataset (CSV)
 
 ## 🛠️ Technologies Used
-- Python
-- Pandas
-- Scikit-learn
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+
+## 📁 Project Structure
+
+```
+├── heart.csv
+├── diabetes.csv
+├── breast_cancer.csv
+├── main.py
+```
 
 ## ▶️ How to Run
-```bash
-pip install pandas scikit-learn
-py main.py
+
+1. Install required libraries:
+
+pip install pandas numpy scikit-learn
+
+2. Run the script:
+
+py main2.py
+
+
+## 📈 Output
+
+* Accuracy of each model
+* Best performing model
+* Disease prediction result
+
+## 🔮 Future Improvements
+
+* Add GUI using Tkinter / Streamlit
+* Deploy as web app
+* Include more medical features
